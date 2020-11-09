@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "GT Walsheim Pro";
+  font-weight: 300;
+  font-style: italic;
+  src: url("GT-Walsheim-Pro-Light-Oblique.otf") format("opentype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "GT Walsheim Pro";
+  font-weight: 400;
+  font-style: normal;
+  src: url("GT-Walsheim-Pro-Regular.otf") format("opentype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "GT Walsheim Pro";
+  font-weight: 500;
+  font-style: medium;
+  src: url("GT-Walsheim-Pro-Medium.otf") format("opentype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "GT Walsheim Pro";
+  font-weight: 700;
+  font-style: bold;
+  src: url("GT-Walsheim-Pro-Bold.otf") format("opentype");
+  font-display: swap;
+}

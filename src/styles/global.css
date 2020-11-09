@@ -1,0 +1,69 @@
+:root {
+  --primary: #ff3378;
+  --bg: #FCFCFC;
+  --text-color: #1c202e;
+  --border-radius: 10px;
+  --border: 1px solid #707070;
+}
+
+html {
+  font: 112.5%/1.45em "GT Walsheim Pro", serif, sans-serif;
+  box-sizing: border-box;
+  /* overflow-y: scroll; */
+  background-color: var(--bg);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  font-family: "GT Walsheim Pro", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  background-color: var(--bg);
+  overflow: hidden;
+}
+h1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-family: "GT Walsheim Pro";
+  font-weight: bold;
+  color: var(--text-color);
+  font-size: 24px;
+}
+h2 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-family: "GT Walsheim Pro";
+  font-weight: 300;
+  font-style: italic;
+  color: var(--text-color);
+  font-size: 18px;
+}
+p {
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+a:hover {
+  opacity: 0.8;
+}
+main {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: space-evenly;
+  align-items: center;
+  /* padding: 20px calc(45px * 1.2) 20px; */
+  padding: calc(20px * 1.2)
+  
+}

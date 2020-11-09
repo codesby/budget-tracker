@@ -1,0 +1,42 @@
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 0;
+
+    span {
+        font-weight: 400;
+        font-style: normal;
+        font-size: 12px;
+        line-height: 14px;
+        color: #AEB1B8;
+    }
+
+    input {
+        border: none;
+        border-bottom: 0.4px solid rgba(28, 32, 46, 0.24);
+        mix-blend-mode: normal;
+        padding-bottom: 7px;
+        padding-top: 8px;
+        width: 100%;
+        color: var(--text-color);
+        font-weight: 700;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 23px;
+
+        &:focus {
+            outline: none;
+        }
+
+        &::placeholder {
+            color: var(--text-color);
+            font-weight: 700;
+            font-size: 20px;
+            mix-blend-mode: normal;
+            line-height: 23px;
+            opacity: 0.24;
+        }
+
+    }
+}
